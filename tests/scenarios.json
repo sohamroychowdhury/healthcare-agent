@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Type 2 diabetes treatment",
+    "query": "What are the treatment options for Type 2 diabetes?",
+    "expect_keywords": ["metformin"],
+    "expect_sources": true
+  },
+  {
+    "name": "First-line hypertension therapy",
+    "query": "What is the first-line treatment for high blood pressure?",
+    "expect_keywords": ["diuretic", "ace inhibitor"],
+    "expect_any": true,
+    "expect_sources": true
+  },
+  {
+    "name": "Asthma controller medication",
+    "query": "How is asthma treated long term?",
+    "expect_keywords": ["corticosteroid"],
+    "expect_sources": true
+  },
+  {
+    "name": "Empty query guard-rail",
+    "query": "",
+    "expect_error": true
+  },
+  {
+    "name": "Unknown topic falls back to general sources",
+    "query": "What helps with seasonal allergies?",
+    "expect_keywords": ["medlineplus", "who", "information"],
+    "expect_any": true,
+    "expect_sources": true
+  }
+]

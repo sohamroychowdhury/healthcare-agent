@@ -1,0 +1,15 @@
+{
+  "keywords": ["asthma", "inhaler", "wheezing", "bronchodilator"],
+  "results": [
+    {
+      "title": "Asthma Management Guidelines",
+      "snippet": "Inhaled corticosteroids are the cornerstone of long-term asthma control. Short-acting beta-agonists (SABAs) are used as reliever therapy for acute symptoms.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430901/"
+    },
+    {
+      "title": "Stepwise Approach to Asthma Treatment",
+      "snippet": "Therapy is stepped up or down based on control: low-dose ICS, then ICS plus a long-acting beta-agonist (LABA), with biologics reserved for severe disease.",
+      "url": "https://ginasthma.org/gina-reports/"
+    }
+  ]
+}

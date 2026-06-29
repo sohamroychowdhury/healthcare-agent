@@ -1,0 +1,20 @@
+{
+  "keywords": ["diabetes", "type 2 diabetes", "blood sugar", "glucose", "insulin"],
+  "results": [
+    {
+      "title": "Type 2 Diabetes: Management and Treatment",
+      "snippet": "Metformin is recommended as the first-line medication for type 2 diabetes, alongside diet and exercise. Newer options include GLP-1 receptor agonists and SGLT2 inhibitors, which also offer cardiovascular benefits.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513253/"
+    },
+    {
+      "title": "Standards of Care in Diabetes",
+      "snippet": "Treatment goals focus on glycemic control (target HbA1c often below 7%), blood pressure, and lipid management. Lifestyle modification remains foundational across all stages.",
+      "url": "https://diabetesjournals.org/care/standards-of-care"
+    },
+    {
+      "title": "GLP-1 Receptor Agonists in Type 2 Diabetes",
+      "snippet": "GLP-1 agonists such as semaglutide improve glucose control and support weight loss, and are increasingly used when metformin alone is insufficient.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/glp1-review/"
+    }
+  ]
+}

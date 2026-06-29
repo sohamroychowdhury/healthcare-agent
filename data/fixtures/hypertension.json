@@ -1,0 +1,20 @@
+{
+  "keywords": ["hypertension", "high blood pressure", "blood pressure"],
+  "results": [
+    {
+      "title": "Hypertension: First-Line Treatment",
+      "snippet": "First-line therapy combines lifestyle changes with thiazide diuretics, ACE inhibitors, ARBs, or calcium channel blockers. Choice depends on age, ethnicity, and comorbidities.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539859/"
+    },
+    {
+      "title": "Lifestyle Modifications for Blood Pressure",
+      "snippet": "Reducing sodium intake, the DASH diet, regular aerobic exercise, weight loss, and limiting alcohol can each meaningfully lower blood pressure.",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure"
+    },
+    {
+      "title": "Resistant Hypertension",
+      "snippet": "When blood pressure stays high on three agents, adding a mineralocorticoid receptor antagonist such as spironolactone is often effective.",
+      "url": "https://www.ahajournals.org/resistant-hypertension"
+    }
+  ]
+}
