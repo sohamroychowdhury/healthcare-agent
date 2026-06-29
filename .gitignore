@@ -5,3 +5,7 @@ __pycache__/
 venv/
 traces/
 .DS_Store
+
+# local-only tooling used to generate the report assets
+docs/make_diagram.py
+docs/make_pdf.py

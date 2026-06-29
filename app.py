@@ -7,8 +7,18 @@ Run with:
 from __future__ import annotations
 
 import json
+import os
 
 import streamlit as st
+
+# On Streamlit Cloud, configuration is provided via st.secrets. Mirror it into
+# environment variables before importing our config so the same code path works
+# locally (.env) and when deployed. Must run before importing src.*.
+try:
+    for _key, _val in st.secrets.items():
+        os.environ.setdefault(_key, str(_val))
+except Exception:
+    pass
 
 from src.agent import run_agent, validate_query
 from src.config import config

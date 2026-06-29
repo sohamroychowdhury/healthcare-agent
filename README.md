@@ -102,6 +102,23 @@ Web UI:
 python3 -m streamlit run app.py
 ```
 
+## Deploy (Streamlit Community Cloud, free)
+
+1. Push this repo to GitHub (already done).
+2. Go to https://share.streamlit.io, sign in with GitHub, and click **New app**.
+3. Pick this repo, branch `main`, main file `app.py`.
+4. Under **Advanced settings → Secrets**, paste:
+
+```toml
+LLM_PROVIDER = "groq"
+GROQ_API_KEY = "your-groq-key"
+LLM_MODEL = "llama-3.3-70b-versatile"
+SEARCH_OFFLINE = "false"
+```
+
+5. Click **Deploy**. The app reads those secrets at startup, so live mode (Groq +
+   web search) works out of the box.
+
 ## Evaluation
 
 ```bash
