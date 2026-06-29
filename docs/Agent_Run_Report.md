@@ -1,5 +1,7 @@
 # Agent Run Report — Healthcare Q&A Agent
 
+**Live demo:** https://healthcare-agent-fo48sgeutc25uy2ogrqpk6.streamlit.app/
+
 This is a short walkthrough of what I built, how it thinks, and how it behaves
 when you actually run it. The goal of the project was a small, honest agent that
 answers health questions by looking things up and summarizing what it finds —

@@ -1,5 +1,7 @@
 # Healthcare Q&A Agent
 
+**Live demo:** https://healthcare-agent-fo48sgeutc25uy2ogrqpk6.streamlit.app/
+
 A small agent that answers health questions by searching the web and summarizing
 what it finds, along with the sources it used. It's written as a plain ReAct loop
 (think → search → read → answer) so the reasoning is easy to follow.
